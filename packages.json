@@ -28,5 +28,14 @@
         "version": "latest",
         "install": "go install github.com/Taha95-dev/Omarchy-CLI-tool@latest",
         "post_install": "omarchy --version"
+    },
+    {
+    "name": "docker",
+    "version": "24",
+    "description": "Containerization platform",
+    "windows": "https://desktop.docker.com/win/main/amd64/Docker Desktop Installer.exe",
+    "linux": "curl -fsSL https://get.docker.com | sh",
+    "mac": "brew install docker",
+    "post_install": "docker --version"
     }
 ]
