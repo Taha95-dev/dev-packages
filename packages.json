@@ -33,7 +33,7 @@
     "name": "docker",
     "version": "24",
     "description": "Containerization platform",
-    "windows": "https://desktop.docker.com/win/main/amd64/Docker Desktop Installer.exe",
+    "windows": "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe",
     "linux": "curl -fsSL https://get.docker.com | sh",
     "mac": "brew install docker",
     "post_install": "docker --version"
